@@ -13,3 +13,12 @@ def list(reqest):
 def index(resquest):
 	'''index Views(首页)'''
 	return HttpResponse('index')
+
+def main():
+	'''main function'''
+	pass
+
+
+if __name__ == '__main__':
+	main()
+
